@@ -61,6 +61,17 @@
                 "cwd": "${workspaceFolder}"
             },
             "problemMatcher": []
+        },
+        {
+            "label": "test",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "test",
+                "${workspaceFolder}/Tests/Padutronics.Ranges.Tests/Padutronics.Ranges.Tests.csproj"
+            ],
+            "group": "test",
+            "problemMatcher": "$msCompile"
         }
     ]
 }
