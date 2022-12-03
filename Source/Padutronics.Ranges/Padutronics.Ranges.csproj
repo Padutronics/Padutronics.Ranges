@@ -15,4 +15,8 @@
         <RepositoryUrl>https://github.com/Padutronics/Padutronics.Ranges</RepositoryUrl>
         <RepositoryType>Git</RepositoryType>
     </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="Padutronics.Diagnostics.Debugging" Version="0.2.0" />
+        <PackageReference Include="Padutronics.Extensions.System" Version="0.3.0" />
+    </ItemGroup>
 </Project>
